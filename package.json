@@ -1,0 +1,26 @@
+{
+  "name": "cortico-world-petcmd",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cortico World 扩展：桌宠指令——扫描 Windows 开始菜单的已安装应用,给 bot 两个工具:列出可启动的应用、按名字启动一个;启动经系统 shell,回执陈述事实。",
+  "license": "MIT",
+  "keywords": [
+    "cortico-world",
+    "cortico",
+    "launcher",
+    "windows"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./src/index.ts",
+  "cortico": {
+    "kind": "world",
+    "api": 5
+  },
+  "files": [
+    "src",
+    "ENV_PROMPT.md",
+    "README.md"
+  ]
+}
